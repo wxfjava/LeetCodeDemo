@@ -14,7 +14,7 @@ import java.util.Arrays;
  * 因为 nums[0] + nums[1] = 2 + 7 = 9
  * 所以返回 [0, 1]
  */
-public class TwoSum1 {
+public class Solution1 {
 
 
     public int[] twoSum(int[] nums, int target) {
@@ -49,7 +49,7 @@ public class TwoSum1 {
     public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 15};
         int target = 9;
-        TwoSum1 ts = new TwoSum1();
+        Solution1 ts = new Solution1();
         int[] result = ts.twoSum(nums, target);
         System.out.println(Arrays.toString(result) + "0:" + result[0]);
     }
